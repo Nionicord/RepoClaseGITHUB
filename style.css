@@ -1,0 +1,44 @@
+
+
+
+h1 {
+    color: brown;
+    background-color: aqua;
+    text-align: center;
+}
+h2 {
+    color: brown;
+    background-color: aqua;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+label {
+    margin-top: 1em;
+    display: block;
+}
+
+input, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
