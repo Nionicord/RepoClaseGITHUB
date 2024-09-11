@@ -1,5 +1,6 @@
 Tarea 
 Crear un repositorio remoto en GITHUB subir allí un par de cambios a gusto y placer, a nuestro formulario HTML con los comandos vistos en clase. 
+<<<<<<< rama-1
 Tarea 2 Equipo de trabajo
 Miembros:
 -Gustavo Fernandez
@@ -9,3 +10,6 @@ Miembros:
 -Fedes
 -Nicolas Moreno
 -Diego Diaz Jara
+=======
+
+>>>>>>> main
