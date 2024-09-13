@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>CLASE DE GIT-GITHUB</title>
+</head>
+<body>
+    <header>
+        <section class="encabezado">
+            <picture>
+            <img class="logo" src="../public/images/PilarTecno-2 (2).svg" alt="barnerPilarTecno">
+        </picture>
+        </section>
+    </header>
+    
+    <H1>PRIMEROS PASOS EN GIT - POLOTEC</H1>
+    <h2>Formulario de Contacto</h2>
+    <form action="/submit" method="post">
+        <label for="nombre">Name:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+
+        <label for="telefono">Number Phone:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <label for="domicilio">Address:</label>
+        <input type="text" id="domicilio" name="domicilio" required><br><br>
+
+        <label for="pais">Country:</label>
+        <input type="text" id="pais" name="pais" required><br><br>
+
+        <label for="ciudad">City:</label>
+        <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+        <label for="mensaje">Menssage:</label><br>
+        <label for="telefono">Número de Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" required><br><br>
+
+        <label for="pais">País:</label>
+        <input type="text" id="pais" name="pais" required><br><br>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+        <button type="button" onclick="miFuncion()">SEND</button>
+    </form>
+
+    <script>
+        function miFuncion() {
+            alert('Formulario enviado!');
+        }
+    </script>
+</main>
+</body>
+</html>
